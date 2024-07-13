@@ -6,9 +6,21 @@
 
 body {
     height: 500vh;
+    background-color: #2E9CCA;
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
+}
+
+#about {
+    box-shadow: 5px 5px 10px black;
+}
+
+#about img {
+    filter: drop-shadow(1px 1px 20px black);
+    border-radius: 50%;
+    width: 30%;
+    
 }
