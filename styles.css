@@ -146,6 +146,15 @@ nav {
 #experience {
     box-shadow: 5px 1px 10px black;
     display: flex;
+    flex-direction: column;
+}
+
+/* taro media query jgn jauh jauh dri class/id cssnya */
+/* Normal Desktop itu > 1024px */
+@media screen and (min-width: 1024px) {
+    #experience {
+        flex-direction: unset;
+    }
 }
 
 #experience #card {
